@@ -34,7 +34,7 @@ Three LSTM layers encode the input sequence, with the output of the last layer u
 
 ![encoder decoder](https://github.com/aunali1932/project-text-summary/blob/main/Screenshot%202023-05-09%20024835.png)
 
-![encoder decoder]([https://github.com/mnm2401/test/blob/main/Screenshot%202023-05-09%20025751.png](https://github.com/aunali1932/project-text-summary/blob/main/Screenshot%202023-05-09%20025751.png))
+![encoder decoder](https://github.com/aunali1932/project-text-summary/blob/main/Screenshot%202023-05-09%20025751.png)
 ***
 ## Encoder Decoder Inference using Softmax
 Inference models for encoder and decoder are used to predict translations, taking encoder_inputs, hidden state, and cell state. Attention is used to pass decoder_hidden_state_input and outputs2 through the attention layer and concatenated tensor through the decoder_dense layer. Moreover, The function decodes a single input sequence using a trained encoder-decoder model, generates an empty target sequence, predicts the next token, and returns the decoded sentence.
